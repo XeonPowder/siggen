@@ -74,11 +74,31 @@
                  'segoe ui', arial,
                  sans-serif;
   }
-  button, .button, input {
+  button, .button, input, .green {
     cursor: pointer;
   }
-  button:focus, .button:focus, input:focus {
+  button:focus, .button:focus, input:focus, .green:focus {
     outline: none;
+  }
+  .green, .green:visited {
+    margin: 5px;
+    display: inline-block;
+    color: #2BA55F !important;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: 2px solid #2BA55F !important;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  .green:hover, .green:focus {
+    color: #fff !important;
+    background-color: #108040;
   }
   button, button:visited, input, input:visited {
     margin: 5px;
@@ -119,7 +139,6 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    cursor: pointer;
   }
   .button:hover, .button:focus
   {
